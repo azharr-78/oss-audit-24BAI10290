@@ -23,8 +23,7 @@ else
     echo "Status: $PACKAGE is NOT installed."
 fi
 
-echo "------------------------------------------"
-# Case statement to print a philosophy note based on the package name
+
 case $PACKAGE in
     python3|python) 
         echo "Philosophy: Python - A language shaped entirely by community." 
@@ -42,4 +41,4 @@ case $PACKAGE in
         echo "Philosophy: No specific philosophy note found for this software." 
         ;;
 esac
-echo "=========================================="
+
